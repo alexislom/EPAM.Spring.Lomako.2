@@ -9,7 +9,7 @@ namespace Task1Logic
     /// <summary>
     /// Class which contain Neuton method of calculating the nth root
     /// </summary>
-    public class Algorithm
+    public static class Algorithm
     {
         #region public methods
         /// <summary>

@@ -16,6 +16,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Multi-file assembly report"
 		Report.docx = Report.docx
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2Logic", "Task2Logic\Task2Logic.csproj", "{2CCD0D70-BFB2-4B39-B080-C81F8D94FDAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2Console", "Task2Console\Task2Console.csproj", "{557984ED-3E47-48A4-A8EB-4B78EF923BDA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,6 +42,14 @@ Global
 		{059E0C61-E7E9-4AF4-9407-21BD4F5AB942}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{059E0C61-E7E9-4AF4-9407-21BD4F5AB942}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{059E0C61-E7E9-4AF4-9407-21BD4F5AB942}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CCD0D70-BFB2-4B39-B080-C81F8D94FDAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CCD0D70-BFB2-4B39-B080-C81F8D94FDAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CCD0D70-BFB2-4B39-B080-C81F8D94FDAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CCD0D70-BFB2-4B39-B080-C81F8D94FDAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{557984ED-3E47-48A4-A8EB-4B78EF923BDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{557984ED-3E47-48A4-A8EB-4B78EF923BDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{557984ED-3E47-48A4-A8EB-4B78EF923BDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{557984ED-3E47-48A4-A8EB-4B78EF923BDA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
