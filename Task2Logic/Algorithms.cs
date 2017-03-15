@@ -9,7 +9,6 @@ namespace Task2Logic
 {
     public class Algorithms
     {
-
         private delegate int gcdDelegate(int a, int b);
 
         #region Public methods
@@ -24,8 +23,6 @@ namespace Task2Logic
         public static int GreatestCommonDivisorByEuclid(out TimeSpan time, int a, int b)
         {
             var sw = Stopwatch.StartNew();
-            a = Math.Abs(a);
-            b = Math.Abs(b);
 
             int result = ClassicGCD(a, b);
             

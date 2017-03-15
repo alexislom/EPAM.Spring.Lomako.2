@@ -14,7 +14,7 @@ namespace Task2Console
         {
             TimeSpan time = TimeSpan.Zero;
 
-            int result = Algorithms.GreatestCommonDivisorByEuclid(out time, 12345, 555);
+            int result = Algorithms.GreatestCommonDivisorByEuclid(out time, -12345, 555);
 
             Console.WriteLine($"The greatest common divisor is {result}," +
                                                    $" it cost us {time.TotalSeconds:0} seconds" +
